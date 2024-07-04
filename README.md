@@ -33,7 +33,7 @@ YooM is a powerful and intuitive video calling website inspired by Zoom. Built u
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/SujeetPawar/YooM
+   git clone https://github.com/SujeetPawar/YooM.git
    cd yoom
    
 2. Install the dependencies:
