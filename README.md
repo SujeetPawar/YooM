@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# YooM - Video Calling Website 🚀
 
-## Getting Started
+YooM is a powerful and intuitive video calling website inspired by Zoom. Built using the latest technologies, YooM provides seamless and real-time video calling and conferencing features, ensuring a smooth and engaging user experience.
 
-First, run the development server:
+![YooM Logo](./public/icons/logo.svg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-time Video Calling and Conferencing** 📹
+- **Responsive and Attractive Design** 🎨
+- **Call Management, Monitoring, and Recording** 📊
+- **User Authorization** 🔒
+- **Seamless Performance** ⚡
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js** - React framework for server-rendered apps
+- **TypeScript** - Typed JavaScript for enhanced development experience
+- **Stream-io** - Toolkit for call management, monitoring, and recording
+- **Clerk** - User authentication and authorization
+- **Shadcn/ui & Tailwind** - Design and styling
+- **Vercel** - Deployment platform
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js
+- npm or yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. Clone the repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/SujeetPawar/YooM
+   cd yoom
+   
+2. Install the dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm install
+   
+3. create .env file in the root directory and add your credentials:
+
+   ```bash
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    NEXT_PUBLIC_STREAM_API_KEY=
+    STREAM_SECRET_KEY=
+    NEXT_PUBLIC_BASE_URL=
+   
+4. finally start the project locallay:
+
+   ```bash
+     npm run dev
+
